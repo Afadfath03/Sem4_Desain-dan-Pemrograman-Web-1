@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-kiri">
+            <h1>ZIYADA</h1>
+        </div>
+    </div>
+
+    <div id="navbar">
+        <div class="navbar-kiri">
+            <div id="navbar-menudropdown">
+                <button>Menu</button>
+                <div class="navbar-menudropdown-content">
+                    <ul>
+                        <li>User</li>
+                        <li>About</li>
+                        <li>Log Out</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-kanan">
+            <button>Register</button>
+            <p>|</p>
+            <button>Login</button>
+        </div>
+    </div>
+
+    <div id="form-body">
+        <p>Register</p>
+        <form action="">
+            <div id="register-form">
+                <div class="register-form-leftside">
+                    <label for="formId">ID</label>
+                    <input type="text" name="formId" id="formId">
+
+                    <label for="formNama">Nama</label>
+                    <input type="text" name="formNama" id="formNama">
+
+                    <label for="formJK">Jenis Kelamin</label>
+                    <div class="formJK-selector">
+                        <select>
+                            <option value="0">Laki-Laki</option>
+                            <option value="1">Perempuan</option>
+                        </select>
+                    </div>
+                    <label for="formAgama">Agama</label>
+                    <input type="text" name="formAgama" id="formAgama">
+
+                    <label for="formAlamat">Alamat</label>
+                    <textarea name="formAlamat" id="formAlamat" cols="30%" rows="5"></textarea>
+                </div>
+
+                <div class="register-form-rightside">
+                    <label for="formHoby">Hobi</label>
+                    <textarea name="formHobi" id="formHobi" cols="30%   " rows="5"></textarea>
+                </div>
+            </div>
+            <div class="register-button">
+                <button type="submit">Daftar</button>
+                <button type="button">Batal</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="footer">
+        <h2>©daelamamiagusmuharam</h2>
+    </div>
+</body>
+
+</html>

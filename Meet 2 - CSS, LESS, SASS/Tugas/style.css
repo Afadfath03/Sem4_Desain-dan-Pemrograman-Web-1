@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #dfe4ea;
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: #337ab7;
+}
+
+.header-kiri h1 {
+    color: white;
+    font-size: 3em;
+    margin: 0px;
+}
+
+.header-kanan {
+    margin: 0px 5%;
+}
+
+.header-kanan input {
+    padding: 10px;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.header-kanan button {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.content-kiri {
+    padding: 2% 3%;
+}
+
+.content-kiri h3 {
+    padding: 0px;
+    margin: 0px;
+    color: #348fa7;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.content-kiri p {
+    padding: 0px;
+    margin: 0px;
+    color: #0353df;
+    font-weight: bold;
+    font-size: 4.5em;
+}
+
+.content-kiri br {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-kanan {
+    padding: 20px 30px;
+    margin: 0px 8%;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.content-kanan p {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.Signin-input {
+    display: grid;
+}
+
+.Signin-input label {
+    color: black;
+    padding: 10px 0px;
+}
+
+.Signin-input input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #d9d9d9;
+}
+
+.content-kanan button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3579b6;
+    color: white;
+    cursor: pointer;
+}
+
+.content-kanan a {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+#navbar {
+    border-top: 2px solid black;
+    background-color: #3d93dd;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px;
+}
+
+#navbar-menudropdown button{
+    position: relative;
+    display: inline-block;
+    cursor: default;
+    padding: 20%;
+    font-size: 1.5em;
+    border: hidden;
+    color: white;
+    background-color: #337ab7;
+}
+
+.navbar-menudropdown-content {
+    display: none;
+    position: absolute;
+    min-width: max-content;
+    color: white;
+    background-color: #337ab7;
+    border: 2px solid grey;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.navbar-kanan{
+    display: flex;
+}
+
+.navbar-kanan p{
+    font-weight: 1000;
+}
+.navbar-kanan button{
+    position: relative;
+    display: inline-block;
+    cursor: default;
+    padding: 0px 10px;
+    font-size: 1.5em;
+    border: hidden;
+    color: white;
+    background-color: #337ab7;
+}
+
+#navbar-menudropdown:hover .navbar-menudropdown-content {
+    display: block;
+}
+
+#form-body{
+    margin: 1% 30%;
+    padding: 10px 3%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#form-body p{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#register-form{
+    padding: 3% 1%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.register-form-leftside{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.register-form-leftside label{
+    color: rgb(68, 68, 68);
+    font-size: large;
+}
+
+.register-form-leftside input, .register-form-leftside textarea, .register-form-leftside select{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #a0a0a0;
+}
+
+.register-form-rightside{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.register-form-rightside textarea{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #a0a0a0;
+}
+
+.register-button{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.register-button button{
+    margin: 10px 3%;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    background-color: #3d93dd;
+    cursor: pointer;
+}
+
+textarea{
+    resize: none;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    padding: 10px 10%;
+    background-color: white;
+    color: #1089a6;
+}
