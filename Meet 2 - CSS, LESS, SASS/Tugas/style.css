@@ -144,6 +144,13 @@ body {
     border: 2px solid grey;
     padding-right: 20px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-menudropdown-content a:visited, .navbar-menudropdown-content a:hover, .navbar-menudropdown-content a:active, .navbar-menudropdown-content a:link{
+    text-decoration: none;
+    color: white;
+    background-color: #337ab7;
 }
 
 .navbar-kanan{
@@ -153,11 +160,21 @@ body {
 .navbar-kanan p{
     font-weight: 1000;
 }
+.navbar-kanan a {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+    padding: 0px 5px;
+    border: hidden;
+    color: white;
+    background-color: #337ab7;
+}
+
 .navbar-kanan button{
     position: relative;
     display: inline-block;
     cursor: default;
-    padding: 0px 10px;
+    padding: 10px 5px;
     font-size: 1.5em;
     border: hidden;
     color: white;
@@ -179,6 +196,29 @@ body {
     font-size: 1.5em;
     font-weight: bold;
 }
+
+.Login-btn{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    align-items: center;
+}
+
+.Login-btn a{
+    padding: 1% 18%;
+    cursor: pointer;
+}
+
+.Login-btn button{
+    padding: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    background-color: #3d93dd;
+    cursor: pointer;
+}
+
 #register-form{
     padding: 3% 1%;
     display: flex;
@@ -223,6 +263,11 @@ body {
     display: flex;
     flex-direction: row;
 
+}
+
+.register-button a{
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 .register-button button{

@@ -37,38 +37,20 @@
     </nav>
 
     <div id="form-body">
-        <p>Register</p>
-        <form action="login.html">
+        <p>Login</p>
+        <form action="Dashboard.html">
             <div id="register-form">
                 <div class="register-form-leftside">
-                    <label for="formId">ID</label>
-                    <input type="number" name="formId" id="formId">
+                    <label for="formUser">Username</label>
+                    <input type="text" name="formUser" id="formUser">
 
-                    <label for="formNama">Nama</label>
-                    <input type="text" name="formNama" id="formNama">
-
-                    <label for="formJK">Jenis Kelamin</label>
-                    <div class="formJK-selector">
-                        <select>
-                            <option value="0">Laki-Laki</option>
-                            <option value="1">Perempuan</option>
-                        </select>
-                    </div>
-                    <label for="formAgama">Agama</label>
-                    <input type="text" name="formAgama" id="formAgama">
-
-                    <label for="formAlamat">Alamat</label>
-                    <textarea name="formAlamat" id="formAlamat" cols="30%" rows="5"></textarea>
-                </div>
-
-                <div class="register-form-rightside">
-                    <label for="formHoby">Hobi</label>
-                    <textarea name="formHobi" id="formHobi" cols="30%   " rows="5"></textarea>
+                    <label for="formPass">Password</label>
+                    <input type="password" name="formPass" id="formPass">
                 </div>
             </div>
-            <div class="register-button">
-                <a href="login.html"><button type="submit">Daftar</button></a>
-                <a href="index.html"><button type="button">Batal</button></a>
+            <div class="Login-btn">
+                <a href="Dashboard.html"><button type="submit">Submit</button></a>
+                <a href="forgotPassword.html"><button type="button">Forgot</button></a>
             </div>
         </form>
     </div>

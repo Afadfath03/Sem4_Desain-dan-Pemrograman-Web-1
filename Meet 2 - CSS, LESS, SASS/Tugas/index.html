@@ -4,23 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>2211104030</title>
+	<title>Login</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<div id="header">
+	<header id="header">
 		<div class="header-kiri">
 			<h1>ZIYADA</h1>
 		</div>
 		<div class="header-kanan">
-			<form action="">
+			<form action="Dashboard.html">
 				<input type="email" name="email" placeholder="Email">
 				<input type="password" name="password" placeholder="Password">
-				<button type="submit">Masuk</button>
+				<a href="Dashboard.html">
+					<button type="submit">Masuk</button>
+				</a>
 			</form>
 		</div>
-	</div>
+	</header>
 
 	<div id="content">
 		<div class="content-kiri">
@@ -28,7 +30,7 @@
 			<p>Mari Bergabung <br> Bersama Kami</p>
 		</div>
 		<div class="content-kanan">
-			<form action="">
+			<form action="Dashboard.html">
 				<p>Sign In</p>
 				<div class="Signin-input">
 					<label for="Signin-email">Email address</label>
@@ -38,15 +40,15 @@
 					<label for="Signin-repassword">Ulangi Password</label>
 					<input type="password" placeholder="Password">
 				</div>
-					<button type="submit">Submit</button>
-					<a href="">Lupa Password</a>
+					<a href="Dashboard.html"><button type="submit">Submit</button></a>
+					<a href="forgotPassword.html">Lupa Password</a>
 			</form>
 		</div>
 	</div>
 
-	<div id="footer">
+	<footer id="footer">
 		<h2>©daelamamiagusmuharam</h2>
-	</div>
+	</footer>
 </body>
 
 </html>
